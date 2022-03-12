@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
     const list_el = document.querySelector("#tasks");
     
     // THIS PREVENTS THE DEFAULT BEHAVIOUR (STOPS IT FROM REFRESHING THE PAGE)
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', e => {
         e.preventDefault();
 
         // GETTING THE INPUT VALUE
